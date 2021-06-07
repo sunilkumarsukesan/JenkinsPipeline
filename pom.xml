@@ -5,12 +5,17 @@
   <artifactId>Mavenjava</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+	</properties>
   <name>Mavenjava</name>
   <url>http://maven.apache.org</url>
   
   <profiles>
   <profile>
   <id>Regression</id>
+  
   
   <build>
     <pluginManagement>
